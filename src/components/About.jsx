@@ -50,8 +50,8 @@ const About = () => {
                 <li className='flex gap-x-3 mx-5 mt-4'>
                     <img src={gmail} alt=""  className='w-5 h-5 '/>
     
-                   <a href="mailto:deyjayshankar@gmail.com">Email Me <br />
-                   <span className='text-gray-200 text-[14px]'>deyjayshankar@gmail.com</span>
+                   <a href="mailto:name@gmail.com">Email Me <br />
+                   <span className='text-gray-200 text-[14px]'>name@gmail.com</span>
                    </a>
                    
         
