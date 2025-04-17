@@ -10,7 +10,7 @@ import emailjs from '@emailjs/browser';
 import { toast } from "react-toastify"
 const Contact = () => {
   emailjs.init({
-    publicKey: '20iLOdZZ_aFcZNqyj',
+    publicKey: 'your_key',
   });
 const initialValues={
   name:"",
@@ -23,7 +23,7 @@ const initialValues={
     validationSchema:messageSchema,
     onSubmit:(value)=>{
       console.log(value)
-      emailjs.send('service_0q6neiu', 'template_jnfsttg', value).then(
+      emailjs.send('service_0q6nei', 'template_jnfhh', value).then(
         (response) => {
           toast(response.text);
         },
