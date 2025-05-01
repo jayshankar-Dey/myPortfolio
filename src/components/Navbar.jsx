@@ -42,7 +42,7 @@ const Navbar = () => {
     const social=[
         {
             name:"My Github Account",
-            link:"https://github.com/jayshankar-Dey",
+            link:"https://github.com/name",
             img:git
         },
         {
